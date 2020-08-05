@@ -1,0 +1,6 @@
+//
+//if that file compiled - that means that a local scetch folder doesn't contains 
+//a file with the same filename
+//(because AVR uses gcc-4.9 version and pre-processor cannot check if file exists)
+#error File cmdParserV2Settings.h doesn't exists in the sketch folder! \
+ Use cmdParserV2Settings_EXAMPLE.h as a template when create such file 
